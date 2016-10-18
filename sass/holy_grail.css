@@ -1,0 +1,47 @@
+/* line 1, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+body {
+  background: pink; }
+
+/* line 5, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+.container header {
+  background: orange;
+  height: 100px;
+  padding: 20px; }
+
+/* line 10, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+.container main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch; }
+  /* line 18, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+  .container main .sidebar1 {
+    background: white;
+    width: 20%; }
+    /* line 21, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+    .container main .sidebar1 h2 {
+      text-align: center; }
+  /* line 23, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+  .container main .text {
+    background: #999;
+    width: 60%; }
+    /* line 26, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+    .container main .text h1 {
+      text-align: center; }
+  /* line 28, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+  .container main .sidebar2 {
+    background: white;
+    width: 20%; }
+    /* line 31, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+    .container main .sidebar2 h2 {
+      text-align: center; }
+
+/* line 34, C:/Users/aq32o_000/Documents/Webbutveckling_2/flexbox/sass/holy_grail.sass */
+.container footer {
+  background: orange;
+  height: 50px;
+  padding: 20px; }
+
+/*# sourceMappingURL=holy_grail.css.map */
